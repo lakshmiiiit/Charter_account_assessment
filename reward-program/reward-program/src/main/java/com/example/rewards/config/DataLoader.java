@@ -14,6 +14,7 @@ import java.time.LocalDate;
  * Loads sample customers and transactions into the H2 database.
  * Data covers multiple customers, months, and edge cases.
  */
+
 @Configuration
 public class DataLoader {
 
