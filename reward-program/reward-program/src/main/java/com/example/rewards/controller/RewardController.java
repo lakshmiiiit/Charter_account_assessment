@@ -3,7 +3,7 @@ package com.example.rewards.controller;
 import org.springframework.web.bind.annotation.*;
 import java.util.*;
 import com.example.rewards.service.*;
-
+/** REST controller for rewards endpoints. */
 @RestController
 @RequestMapping("/api")
 public class RewardController {
