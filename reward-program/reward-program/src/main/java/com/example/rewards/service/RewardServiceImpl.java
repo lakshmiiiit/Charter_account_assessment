@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 import java.util.*;
 import java.time.*;
 import com.example.rewards.repository.*;
-
+/** Implementation of reward calculation logic. */
 @Service
 public class RewardServiceImpl implements RewardService {
 	private final TransactionRepository repo;
