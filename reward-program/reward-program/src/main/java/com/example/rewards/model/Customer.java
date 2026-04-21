@@ -2,6 +2,7 @@ package com.example.rewards.model;
 
 import jakarta.persistence.*;
 
+/** Represents a customer enrolled in rewards program. */
 @Entity
 public class Customer {
 	@Id
