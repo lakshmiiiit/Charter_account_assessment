@@ -2,7 +2,7 @@ package com.example.rewards.model;
 
 import jakarta.persistence.*;
 import java.time.*;
-
+/** Represents a purchase transaction used for reward calculation. */
 @Entity
 public class Transaction {
 	@Id
